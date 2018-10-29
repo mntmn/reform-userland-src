@@ -1,0 +1,20 @@
+[submodule "drm"]
+	path = drm
+	url = git://anongit.freedesktop.org/mesa/drm
+[submodule "libinput"]
+	path = libinput
+	url = git://anongit.freedesktop.org/wayland/libinput
+[submodule "mesa"]
+	path = mesa
+	url = https://gitlab.freedesktop.org/mesa/mesa.git
+[submodule "xf86-input-libinput"]
+	path = xf86-input-libinput
+	url = https://gitlab.freedesktop.org/xorg/driver/xf86-input-libinput.git
+[submodule "xorgproto"]
+	path = xorgproto
+	url = git://anongit.freedesktop.org/xorg/proto/xorgproto
+[submodule "xserver"]
+	path = xserver
+	url = git://anongit.freedesktop.org/xorg/xserver
+
+
