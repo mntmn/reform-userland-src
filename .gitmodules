@@ -16,5 +16,10 @@
 [submodule "xserver"]
 	path = xserver
 	url = git://anongit.freedesktop.org/xorg/xserver
-
+[submodule "xkbcomp"]
+	path = xkbcomp
+	url = https://gitlab.freedesktop.org/xorg/app/xkbcomp
+[submodule "xkeyboard-config"]
+	path = xkeyboard-config
+	url = git://anongit.freedesktop.org/git/xkeyboard-config
 
