@@ -20,4 +20,9 @@ cd ..
 cd xf86-input-libinput && make clean
 cd ..
 
+cd xkbcomp && make clean
+cd ..
+
+cd xkeyboard-config && make clean
+cd ..
 
