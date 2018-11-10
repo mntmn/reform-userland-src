@@ -22,4 +22,7 @@
 [submodule "xkeyboard-config"]
 	path = xkeyboard-config
 	url = git://anongit.freedesktop.org/git/xkeyboard-config
+[submodule "xinit"]
+        path = xinit
+        url = https://gitlab.freedesktop.org/xorg/app/xinit
 

@@ -26,3 +26,6 @@ cd ..
 cd xkeyboard-config && make clean
 cd ..
 
+cd xinit && make clean
+cd ..
+
