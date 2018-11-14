@@ -1,0 +1,19 @@
+diff --git a/src/gallium/drivers/etnaviv/etnaviv_rs.c b/src/gallium/drivers/etnaviv/etnaviv_rs.c
+index fc4f65dbee..d148127903 100644
+--- a/src/gallium/drivers/etnaviv/etnaviv_rs.c
++++ b/src/gallium/drivers/etnaviv/etnaviv_rs.c
+@@ -596,10 +596,10 @@ etna_try_rs_blit(struct pipe_context *pctx,
+ 
+    /* we may be given coordinates up to the padded width to avoid
+     * any alignment issues with different tiling formats */
+-   assert((blit_info->src.box.x + blit_info->src.box.width) * msaa_xscale <= src_lev->padded_width);
+-   assert((blit_info->src.box.y + blit_info->src.box.height) * msaa_yscale <= src_lev->padded_height);
+-   assert(blit_info->dst.box.x + blit_info->dst.box.width <= dst_lev->padded_width);
+-   assert(blit_info->dst.box.y + blit_info->dst.box.height <= dst_lev->padded_height);
++   //assert((blit_info->src.box.x + blit_info->src.box.width) * msaa_xscale <= src_lev->padded_width);
++   //assert((blit_info->src.box.y + blit_info->src.box.height) * msaa_yscale <= src_lev->padded_height);
++   //assert(blit_info->dst.box.x + blit_info->dst.box.width <= dst_lev->padded_width);
++   //assert(blit_info->dst.box.y + blit_info->dst.box.height <= dst_lev->padded_height);
+ 
+    unsigned src_offset = src_lev->offset +
+                          blit_info->src.box.z * src_lev->layer_stride +
